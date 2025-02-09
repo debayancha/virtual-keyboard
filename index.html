@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="image/x-icon">
+    <title>Virtual Keyboard</title>
+</head>
+<body class=" w-full h-[100vh] flex flex-col justify-around">
+    <div class="textcontainer h-[25vh] bg-[whitesmoke] w-[90vw] mx-auto shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-xl outline-none p-4 mt-6 text-xl font-semibold overflow-y-scroll  ">
+
+    </div>
+    <div class="keyboard h-[50vh] w-[65vw] bg-[#A9A9A9] mx-auto mt-6 rounded-2xl flex flex-col justify-evenly">
+        <div class="row flex justify-evenly items-center text-xl">
+            <div class="key active:bg-white cursor-pointer p-[0.3rem] rounded">1</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">2</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">3</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">4</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">5</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">6</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">7</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">8</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">9</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">0</div>
+            <img src="./delete-left-solid.svg" class=' h-5 w-6 active:bg-white cursor-pointer' alt="" id="delete">
+        </div>
+        <div class="row flex justify-evenly items-center text-xl">
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">q</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">w</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">e</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">r</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">t</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">y</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">u</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">i</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">o</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">p</div>
+        </div>
+        <div class="row flex justify-evenly items-center text-xl">
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">CapsLock</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">a</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">s</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">d</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">f</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">g</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">h</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">j</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">k</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">l</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded" id="enterKey">Enter</div>
+        </div>
+        <div class="row flex justify-evenly items-center text-xl w-[60%] mx-auto">
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">z</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">x</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">c</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">v</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">b</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">n</div>
+            <div class="key  active:bg-white cursor-pointer p-[0.3rem] rounded">m</div>
+        </div>
+        <div class="row flex justify-evenly items-center text-xl">
+            <div class="space w-[50%] bg-[#696969] h-[2.5rem] rounded-md active:bg-white cursor-pointer p-[0.3rem]" id="space">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
